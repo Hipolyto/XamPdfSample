@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="pdfSampleView.Views.PdfViewPage" Title="{Binding Title}" xmlns:local="clr-namespace:pdfSampleView.Controls">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand" Padding="0,0,0,0">
+            <ActivityIndicator IsRunning="true" IsVisible="true" Margin="0,50,0,0" x:Name="loadingBox">
+            </ActivityIndicator>
+            <StackLayout VerticalOptions="StartAndExpand" Padding="0,0,0,0" IsVisible="true">
+                <local:ExtendedWebView Uri="{Binding Uri}" x:Name="pdfControl" IsPdf="true" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

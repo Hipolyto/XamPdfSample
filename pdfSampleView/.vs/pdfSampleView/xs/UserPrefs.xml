@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{D71A15E1-C34F-4226-AF50-FDDCCA7E8494}|Default">
+  <MonoDevelop.Ide.ItemProperties.pdfSampleView.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.75177358-E12B-403D-AD99-F84C6DA9E011" />
+  <MonoDevelop.Ide.ItemProperties.pdfSampleView FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="pdfSampleView/Views/PdfViewPage.xaml.cs">
+    <Files>
+      <File FileName="pdfSampleView.iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="pdfSampleView.Android/Renders/ExtendedWebViewRender.cs" Line="58" Column="1" />
+      <File FileName="pdfSampleView.iOS/Renders/ExtendedWebViewRender.cs" Line="54" Column="10" />
+      <File FileName="pdfSampleView/Views/AboutPage.xaml" Line="11" Column="27" />
+      <File FileName="pdfSampleView/Controls/ExtendedWebView.cs" Line="37" Column="11" />
+      <File FileName="pdfSampleView/Views/AboutPage.xaml.cs" Line="21" Column="13" />
+      <File FileName="pdfSampleView/ViewModels/AboutViewModel.cs" Line="16" Column="31" />
+      <File FileName="pdfSampleView/Views/MainPage.xaml.cs" Line="19" Column="55" />
+      <File FileName="pdfSampleView/App.xaml.cs" Line="21" Column="10" />
+      <File FileName="pdfSampleView/App.xaml" Line="13" Column="15" />
+      <File FileName="pdfSampleView/ViewModels/BaseViewModel.cs" Line="12" Column="8" />
+      <File FileName="pdfSampleView.Android/Properties/AndroidManifest.xml" Line="6" Column="12" />
+      <File FileName="pdfSampleView/Views/PdfViewPage.xaml" Line="6" Column="1" />
+      <File FileName="pdfSampleView/Views/PdfViewPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.pdfSampleView.Android PreferredExecutionTarget="Android.03157df3331a980a" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

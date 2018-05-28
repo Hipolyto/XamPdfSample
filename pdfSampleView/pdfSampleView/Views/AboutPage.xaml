@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="pdfSampleView.Views.AboutPage" Title="{Binding Title}" xmlns:local="clr-namespace:pdfSampleView.Controls">
+    <ContentPage.Content>
+         <local:ExtendedWebView Uri="{Binding Uri}" x:Name="pdfControl" IsPdf="true" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+    </ContentPage.Content>
+</ContentPage>
